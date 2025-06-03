@@ -33,4 +33,4 @@ limparFormulario = () => {
     document.getElementById('state').value = '';
 }
 
-preencherFormulario = (endereco) => {}
+document.getElementById('cep').addEventListener('focusout', pesquisarCEP);
