@@ -19,14 +19,14 @@ const pesquisarCEP = async () => {
     }
 }
 
-preencherFormulario = (endereco) => {
+const preencherFormulario = (endereco) => {
     document.getElementById('street').value = endereco.logradouro;
     document.getElementById('neighb').value = endereco.bairro;
     document.getElementById('city').value = endereco.localidade;
     document.getElementById('state').value = endereco.uf;
 }
 
-limparFormulario = () => {
+const limparFormulario = () => {
     document.getElementById('street').value = '';
     document.getElementById('neighb').value = '';
     document.getElementById('city').value = '';
