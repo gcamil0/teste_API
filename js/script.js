@@ -16,6 +16,8 @@ const pesquisarCEP = async () => {
         } else {
             preencherFormulario(address);
         }
+    } else {
+        alert("CEP inválido.");
     }
 }
 
